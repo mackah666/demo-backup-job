@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: chris
+Build-Jdk: 1.8.0_121
+Extension-Name: google-play-android-publisher
+Specification-Title: Enables Jenkins to upload Android apps (APK files
+ ) to Google Play and to manage related info.
+Implementation-Title: google-play-android-publisher
+Implementation-Version: 1.8
+Group-Id: org.jenkins-ci.plugins
+Short-Name: google-play-android-publisher
+Long-Name: Google Play Android Publisher Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Google+Play+Android+P
+ ublisher+Plugin
+Plugin-Version: 1.8
+Hudson-Version: 2.32
+Jenkins-Version: 2.32
+Plugin-Dependencies: google-oauth-plugin:0.5,structs:1.5,token-macro:1
+ .11
+Plugin-Developers: Christopher Orr:orrc:chris@orr.me.uk
+

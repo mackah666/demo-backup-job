@@ -1,0 +1,11 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.codefirst.SimpleThemeDecorator plugin="simple-theme-plugin@0.5.1">
+  <elements>
+    <org.jenkinsci.plugins.simpletheme.CssUrlThemeElement>
+      <url>http://localhost:8080/</url>
+    </org.jenkinsci.plugins.simpletheme.CssUrlThemeElement>
+    <org.jenkinsci.plugins.simpletheme.CssUrlThemeElement>
+      <url>http://localhost:8080/https://tobix.github.io/jenkins-neo2-theme/dist/neo-light.css</url>
+    </org.jenkinsci.plugins.simpletheme.CssUrlThemeElement>
+  </elements>
+</org.codefirst.SimpleThemeDecorator>

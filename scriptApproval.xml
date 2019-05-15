@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<scriptApproval plugin="script-security@1.53">
+  <approvedScriptHashes>
+    <string>017d0db438428731cd600b6ebda805065433520f</string>
+    <string>58ab5b778d7108da08fbaa8b22f10ca507283529</string>
+    <string>b91e8f8c5c2174aaf9efcca3fe16204cfd9f6ca5</string>
+    <string>f91daee323bf769c9c2d370ba9108df41f9cbef8</string>
+  </approvedScriptHashes>
+  <approvedSignatures>
+    <string>method java.lang.Process exitValue</string>
+    <string>method java.lang.Process waitFor</string>
+    <string>staticMethod org.codehaus.groovy.runtime.DefaultGroovyMethods execute java.lang.String</string>
+    <string>staticMethod org.codehaus.groovy.runtime.DefaultGroovyMethods getText java.io.InputStream</string>
+    <string>staticMethod org.codehaus.groovy.runtime.ProcessGroovyMethods getIn java.lang.Process</string>
+  </approvedSignatures>
+  <aclApprovedSignatures/>
+  <approvedClasspathEntries/>
+  <pendingScripts/>
+  <pendingSignatures/>
+  <pendingClasspathEntries/>
+</scriptApproval>

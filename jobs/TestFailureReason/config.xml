@@ -1,0 +1,49 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.31">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.3.4.1"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.3.4.1">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.63">
+    <script>pipeline {
+    agent any
+    stages {
+        stage(&apos;No-op&apos;) {
+            steps {
+                sh &apos;ls&apos;
+                //throw new Exception(&quot;Something went wrong!&quot;)
+            }
+        }
+    }
+    post {
+        always {
+            echo &apos;One way or another, I have finished&apos;
+            deleteDir() /* clean up our workspace */
+        }
+        success {
+            echo &apos;I succeeeded!&apos;
+        }
+        unstable {
+            echo &apos;I am unstable :/&apos;
+        }
+        failure {
+            echo &apos;I failed :(&apos;
+        }
+        changed {
+            echo &apos;Things were different before...&apos;
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
