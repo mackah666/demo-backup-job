@@ -1,0 +1,10 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /Users/mackah666/.jenkins/workspace/JenkinsBackUp
+[JenkinsBackUp] $ /bin/bash /var/folders/35/5rqyybvd1wvblyqqf4m54qnw0000gn/T/jenkins7391111364598305469.sh
+[master c6c7867] Automated Jenkins commit
+ 8 files changed, 15 insertions(+), 13 deletions(-)
+ create mode 100644 logs/tasks/jobAnalytics.log
+ rewrite updates/default.json (74%)
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Finished: SUCCESS

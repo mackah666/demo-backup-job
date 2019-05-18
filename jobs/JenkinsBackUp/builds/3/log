@@ -1,0 +1,9 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /Users/mackah666/.jenkins/workspace/JenkinsBackUp
+[JenkinsBackUp] $ /bin/bash /var/folders/35/5rqyybvd1wvblyqqf4m54qnw0000gn/T/jenkins1639498619688121043.sh
+[master c03e918] Automated Jenkins commit
+ 2 files changed, 21 insertions(+), 1 deletion(-)
+ create mode 100644 thinBackup.xml
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Finished: SUCCESS

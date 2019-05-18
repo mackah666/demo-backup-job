@@ -24,10 +24,10 @@
 cd $HUDSON_HOME
 
 # Add general configurations, job configurations, and user content
-git add -- *.xml jobs/*/*.xml userContent/* plugins/*
+git add -- *.xml jobs/* userContent/* plugins/*
 
 # Add various credentials
-git add -- *.key* secrets updates war logs
+git add -- *.key* secrets #updates war logs
 
 # only add user configurations if they exist
 if [ -d users ]; then
